@@ -1,0 +1,22 @@
+h3 {
+  text-align: center;
+  margin: 10px;
+}
+
+.component {
+  margin: 30px;
+}
+
+.carousel {
+  height:500px;
+}
+
+.aboutUS-container {
+  
+}
+
+.footer {
+  position: fixed !important;
+  bottom: 0;
+  width: 100%;
+}
