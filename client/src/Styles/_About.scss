@@ -1,0 +1,10 @@
+@use '../Styles' as *;
+
+.About{
+    padding-bottom: 5em;
+    .para{
+        @include text($light-text);
+        width: 85%;
+        margin-left: 3.7em;
+    }
+}
