@@ -20,8 +20,12 @@ const Login = () => {
 		// 	}),
 		// })
 
-		const data = true;
-    if (data) {
+    const response = await fetch('http://127.0.0.1:3000/user/getAll');
+    const users = await response.json();
+    console.log(users);
+
+		// const data = true;
+    if (users) {
 			window.location.href = '/auth';
 		}
     else{

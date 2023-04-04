@@ -39,7 +39,8 @@ mongoose.connect("mongodb://127.0.0.1:27017/", { useNewUrlParser: true, useUnifi
 
 // Parse JSON data
 app.use(express.json());
-app.use(mainRoute);
+// app.use(mainRoute);
+app.use('/user', mainRoute);
 
 
 // Start the server
