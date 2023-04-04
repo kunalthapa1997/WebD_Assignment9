@@ -1,22 +1,13 @@
-h3 {
-  text-align: center;
-  margin: 10px;
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.component {
-  margin: 30px;
-}
-
-.carousel {
-  height:500px;
-}
-
-.aboutUS-container {
-  
-}
-
-.footer {
-  position: fixed !important;
-  bottom: 0;
-  width: 100%;
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }
