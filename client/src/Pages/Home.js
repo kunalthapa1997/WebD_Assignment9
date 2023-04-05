@@ -1,21 +1,23 @@
 import React from 'react'
 import Image1 from '../Images/Image 1.jpg'
-import Image2 from '../Images/Image 2.jpg'
+import Image2 from '../Images/Image 2.jpeg'
+import Image3 from '../Images/Image 3.png'
+import Image4 from '../Images/Image 4.jpg'
 
 const Home = () => {
   return (
     <div className="Home">
-      <h1 className='mainTitle'> Digital Design Agency</h1>
-      <p className='caption'>We are a full service agency designing digital experiences for large and small businesses alike.</p>
+      <h1 className='mainTitle'> Navisite: Cloud Services Enterprise</h1>
+      <p className='caption'>The expertise you need to plan, migrate & optimize your business across public, private & hybrid clouds.</p>
       <br /><br /><br />
       <button>Learn More</button>
       <br /><br /><br /><br />
       <div className="Work">
         <div className="sec">
           <div className="content">
-            <h1>Metastaq</h1>
-            <p>Metastaq lets brands easily create truly personal Web 3.0 experiences on their own terms.Having thoroughly studied theconcept, client's industry and the targetaudience, we identified all the shortcomingsof the mockup we received from the client,brainstormed new ideas and worked togetherwith the client on the development of a product that would be bound to win in its space.</p>
-            <button>View Case Study</button>
+            <h1>Microsoft Azure</h1>
+            <p>Optimize your Microsoft Azure investment with cloud services from a leading Microsoft Gold Partner and Azure Expert MSP.</p>
+            <button>Explore</button>
           </div>
           <div className="image">
             <img src={Image1} alt="img1" />
@@ -27,12 +29,38 @@ const Home = () => {
           <img src={Image2} alt="img2" />
         </div>
         <div className="content">
-        <h1>Olumo</h1>
-            <p>A web platform built to help companies drive data informed decisions about the culture of their organization. Listening to your team is an important thing.  Being that Olumo brings organizations into an enlightened awareness of the health of their teams well being, it was suitable to design a mark that demonstrated this.</p>
-            <button>View Case Study</button>
+        <h1>AWS</h1>
+            <p>Work with an AWS Premier Tier Services Partner to maximize the full power of the AWS cloud.</p>
+            <button>Explore</button>
         </div>
         
         </div>
+        <br /><br /><br /><br />
+
+        <div className="sec">
+          <div className="content">
+            <h1>Google Cloud</h1>
+            <p>Migrate and run your business on Google Cloud with managed services from a trusted partner.</p>
+            <button>Explore</button>
+          </div>
+          <div className="image">
+            <img src={Image3} alt="img3" />
+          </div>
+        </div>
+        <br /><br /><br /><br />
+
+        <div className="sec">
+        <div className="image">
+          <img src={Image4} alt="img4" />
+        </div>
+        <div className="content">
+        <h1>Virtual Desktops</h1>
+            <p>Enable a highly scalable, remote workforce with Navisite's Managed Virtual Desktop Service.</p>
+            <button>Explore</button>
+        </div>
+        
+        </div>
+
       </div>
     </div>
 

@@ -3,22 +3,22 @@
 const data= [
     {
         key:"1",
-        title:"Technical Program Manager",
-        location:"San Francisco, CA, USA",
+        title:"SAP Finance (FICO) Solution Architect",
+        location:"Pao Alto, CA, USA",
     },
     {
         key:"2",
-        title:"Data architect",
-        location:"New York, NY, USA",
+        title:"Senior SAP Data Migration Consultant",
+        location:"Boston, MA, USA",
     },
     {
         key:"3",
         title:"DevOps engineer",
-        location:"New York, NY, USA",
+        location:"New Jersey, NY, USA",
     },
     {
         key:"4",
-        title:"Mobile app developer",
+        title:"MySQL DBA",
         location:"New York, NY, USA",
     },
     {
@@ -29,7 +29,7 @@ const data= [
     {
         key:"6",
         title:"UX Designer",
-        location:"Mountain View, CA, USA",
+        location:"Nevada, Las Vegas, USA",
     },
     
 ];
